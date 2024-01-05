@@ -68,3 +68,12 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem 'dotenv-rails', groups: [:development, :test]
+gem 'bootstrap', '~> 5.2.2'
+gem "bootstrap_form", "~> 5.1"
+gem 'jquery-rails'
+gem "chartkick"
+gem "groupdate"
+gem 'ransack'
+gem 'faker'

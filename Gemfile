@@ -82,3 +82,6 @@ gem 'faker'
 gem 'rspec-rails'
 gem 'factory_bot_rails'
 gem 'database_cleaner'
+
+
+gem 'rubocop', '>= 1.0', '< 2.0'

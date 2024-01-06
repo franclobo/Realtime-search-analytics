@@ -1,2 +1,16 @@
-<h1>Searches#index</h1>
-<p>Find me in app/views/searches/index.html.erb</p>
+<body>
+  <div class="container mt-5">
+    <h1 class="text-center">Realtime Search Analytics</h1>
+
+    <div id="search-box" class="mt-4 mb-4">
+      <%= form_tag searches_path, remote: true, method: :post, class: 'd-flex justify-content-center' do %>
+        <%= text_field_tag 'search[query]', nil, placeholder: 'Type your search...', id: 'search-input', class: 'form-control mr-2' %>
+        <%= submit_tag 'Search', id: 'search-button', class: 'btn btn-primary' %>
+      <% end %>
+    </div>
+
+    <div id="search-results">
+      <%= render partial: 'search_results', locals: { top_searches: @top_searches } %>
+    </div>
+  </div>
+</body>

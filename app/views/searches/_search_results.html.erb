@@ -1,0 +1,19 @@
+<h2 class="text-center mt-4 mb-4">Recent Searches</h2>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Count</th>
+      <th>IP Address</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% top_searches.each do |query, count| %>
+      <tr>
+        <td><%= query %></td>
+        <td><%= count %></td>
+        <td><%= request.remote_ip %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

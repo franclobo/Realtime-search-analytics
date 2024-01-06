@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for realtime-search-analytics-morning-snow-4437 on 2024-01-06T02:42:26-05:00
+# fly.toml app configuration file generated for realtime-search-analytics on 2024-01-06T02:56:13-05:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = "realtime-search-analytics-morning-snow-4437"
+app = "realtime-search-analytics"
 primary_region = "mia"
 console_command = "/rails/bin/rails console"
 

@@ -71,7 +71,7 @@ group :test do
   gem 'rails-controller-testing'
 end
 
-gem 'dotenv-rails', groups: [:development, :test]
+
 gem 'bootstrap', '~> 5.2.2'
 gem "bootstrap_form", "~> 5.1"
 gem 'jquery-rails'
@@ -85,3 +85,7 @@ gem 'database_cleaner'
 
 
 gem 'rubocop', '>= 1.0', '< 2.0'
+
+gem "dockerfile-rails", ">= 1.6", :group => :development
+
+gem "redis", "~> 5.0"

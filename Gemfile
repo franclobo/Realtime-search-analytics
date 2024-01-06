@@ -67,4 +67,21 @@ group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
   gem "selenium-webdriver"
+  gem 'shoulda-matchers'
+  gem 'rails-controller-testing'
 end
+
+gem 'dotenv-rails', groups: [:development, :test]
+gem 'bootstrap', '~> 5.2.2'
+gem "bootstrap_form", "~> 5.1"
+gem 'jquery-rails'
+gem "chartkick"
+gem "groupdate"
+gem 'ransack'
+gem 'faker'
+gem 'rspec-rails'
+gem 'factory_bot_rails'
+gem 'database_cleaner'
+
+
+gem 'rubocop', '>= 1.0', '< 2.0'

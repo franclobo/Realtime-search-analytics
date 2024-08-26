@@ -1,7 +1,7 @@
 # syntax = docker/dockerfile:1
 
 # Make sure RUBY_VERSION matches the Ruby version in .ruby-version and Gemfile
-ARG RUBY_VERSION=3.2.2
+ARG RUBY_VERSION=3.3.1
 FROM ruby:$RUBY_VERSION-slim as base
 
 LABEL fly_launch_runtime="rails"
@@ -75,7 +75,7 @@ RUN apt-get update -qq && \
     rm -rf /var/lib/apt/lists /var/cache/apt/archives
 
 # Copy built artifacts: gems, application
-COPY --from=build /usr/local/bundle /usr/local/bundle
+COPY --from=build "${BUNDLE_PATH}" "${BUNDLE_PATH}"
 COPY --from=build /rails /rails
 
 # Run and own only the runtime files as a non-root user for security

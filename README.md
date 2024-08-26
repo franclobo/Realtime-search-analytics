@@ -37,6 +37,8 @@
 
 A realtime search box, where users search articles, and then to have analytics that display what users were searching for. It can also track via IP. It records the user's input in realtime and ultimately display analytics & trends on what people are searching for the most.
 
+![image](https://github.com/user-attachments/assets/172c2d2b-83e6-48da-84f9-5d24eafb00d1)
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>

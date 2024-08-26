@@ -149,7 +149,7 @@ You can deploy this project using:
 👤 **Francisco Borja**
 
 - GitHub: [@franclobo](https://github.com/franclobo)
-- Twitter: [@pancho2788](https://twitter.com/Pancho2788)
+- X: [@pancho2788](https://twitter.com/Pancho2788)
 - LinkedIn: [Francisco Borja](https://www.linkedin.com/in/francisco-borja-lobato/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

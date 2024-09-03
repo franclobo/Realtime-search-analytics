@@ -78,7 +78,7 @@ A realtime search box, where users search articles, and then to have analytics t
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://realtime-search-analytics.fly.dev/)
+- [Live Demo Link](https://real-time-searching-bead1baa36ca.herokuapp.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
